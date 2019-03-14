@@ -1,5 +1,5 @@
-# CodingSample
-Coding Example - Crowe Horwath
+# Coding Sample
+Coding Test - Crowe Horwath
 
 **Objective:** Write a Hello World program
 
