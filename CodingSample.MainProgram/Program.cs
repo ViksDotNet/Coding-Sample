@@ -30,7 +30,7 @@ namespace CodingSample.MainProgram
             IDataService _consoleService = container.Resolve<ConsoleDataService>();
             IDataService _databaseService = container.Resolve<DataBaseService>();
 
-            //log4net init
+            //log4net initilization
             container.RegisterType<ILogger, Log4NetLogger>();
             log4net.Config.XmlConfigurator.Configure();
             log = container.Resolve<Log4NetLogger>();
